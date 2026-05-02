@@ -1,0 +1,85 @@
+# ============================================================
+# SAFAR AI – Smart Route Predictor
+# Requirements File — Install Once, Use Forever
+# pip install -r requirements.txt
+# ============================================================
+
+
+# ─────────────────────────────────────────
+# 1. STREAMLIT — Frontend UI
+# ─────────────────────────────────────────
+streamlit
+streamlit-folium
+
+
+# ─────────────────────────────────────────
+# 2. MAP & GIS — Real OSM Map + Routing
+# ─────────────────────────────────────────
+folium
+osmnx
+networkx
+shapely
+geopandas
+pyproj
+
+
+# ─────────────────────────────────────────
+# 3. DATA HANDLING
+# ─────────────────────────────────────────
+pandas
+numpy
+openpyxl
+
+
+# ─────────────────────────────────────────
+# 4. MACHINE LEARNING — Blockage Predictor
+# ─────────────────────────────────────────
+scikit-learn
+joblib
+xgboost
+
+
+# ─────────────────────────────────────────
+# 5. NLP — Intent + Language Detection
+# ─────────────────────────────────────────
+langdetect
+fuzzywuzzy
+python-Levenshtein
+
+
+# ─────────────────────────────────────────
+# 6. CHARTS & VISUALIZATION
+# ─────────────────────────────────────────
+plotly
+matplotlib
+
+
+# ─────────────────────────────────────────
+# 7. HTTP / SCRAPING — News + Data Fetch
+# ─────────────────────────────────────────
+requests
+beautifulsoup4
+feedparser
+
+
+# ─────────────────────────────────────────
+# 8. UTILITIES
+# ─────────────────────────────────────────
+python-dotenv
+tqdm
+geopy
+
+# ─────────────────────────────────────────
+# 9. DOCUMENT READING — PDF, Word, Excel, PPT, Text Files
+# ─────────────────────────────────────────
+
+PyPDF2
+pdfplumber
+python-docx
+docx2txt
+python-pptx
+xlrd
+odfpy
+textract
+tabula-py
+pymupdf
