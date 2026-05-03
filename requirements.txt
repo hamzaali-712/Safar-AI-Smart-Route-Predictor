@@ -1,85 +1,38 @@
 # ============================================================
 # SAFAR AI – Smart Route Predictor
-# Requirements File — Install Once, Use Forever
-# pip install -r requirements.txt
+# Requirements — Streamlit Cloud Compatible
 # ============================================================
 
-
-# ─────────────────────────────────────────
 # 1. STREAMLIT — Frontend UI
-# ─────────────────────────────────────────
-streamlit
-streamlit-folium
+streamlit>=1.32.0
+streamlit-folium>=0.18.0
 
+# 2. MAP & GIS
+folium>=0.15.0
 
-# ─────────────────────────────────────────
-# 2. MAP & GIS — Real OSM Map + Routing
-# ─────────────────────────────────────────
-folium
-osmnx
-networkx
-shapely
-geopandas
-pyproj
-
-
-# ─────────────────────────────────────────
 # 3. DATA HANDLING
-# ─────────────────────────────────────────
-pandas
-numpy
-openpyxl
+pandas>=2.1.0
+numpy>=1.24.0
 
+# 4. MACHINE LEARNING
+scikit-learn>=1.3.0
+joblib>=1.3.0
+xgboost>=2.0.0
 
-# ─────────────────────────────────────────
-# 4. MACHINE LEARNING — Blockage Predictor
-# ─────────────────────────────────────────
-scikit-learn
-joblib
-xgboost
+# 5. NLP — Language Detection & Fuzzy Matching
+langdetect>=1.0.9
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
 
-
-# ─────────────────────────────────────────
-# 5. NLP — Intent + Language Detection
-# ─────────────────────────────────────────
-langdetect
-fuzzywuzzy
-python-Levenshtein
-
-
-# ─────────────────────────────────────────
 # 6. CHARTS & VISUALIZATION
-# ─────────────────────────────────────────
-plotly
-matplotlib
+plotly>=5.18.0
 
+# 7. HTTP
+requests>=2.31.0
 
-# ─────────────────────────────────────────
-# 7. HTTP / SCRAPING — News + Data Fetch
-# ─────────────────────────────────────────
-requests
-beautifulsoup4
-feedparser
-
-
-# ─────────────────────────────────────────
 # 8. UTILITIES
-# ─────────────────────────────────────────
-python-dotenv
-tqdm
-geopy
+python-dotenv>=1.0.0
+geopy>=2.4.0
 
-# ─────────────────────────────────────────
-# 9. DOCUMENT READING — PDF, Word, Excel, PPT, Text Files
-# ─────────────────────────────────────────
-
-PyPDF2
-pdfplumber
-python-docx
-docx2txt
-python-pptx
-xlrd
-odfpy
-textract
-tabula-py
-pymupdf
+# 9. GROQ LLM
+groq>=0.4.0

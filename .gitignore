@@ -1,0 +1,42 @@
+# ============================================================
+# SAFAR AI — .gitignore
+# ============================================================
+
+# Environment / Secrets
+.env
+.env.example
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ML Models (generated at runtime)
+ml/models/*.joblib
+ml/models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log

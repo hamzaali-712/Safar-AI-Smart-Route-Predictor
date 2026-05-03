@@ -1,0 +1,14 @@
+{
+  "rest_areas": [
+    {"name": "Bhera Rest Area", "lat": 32.4811, "lng": 72.9086, "motorway": "M-2", "facilities": ["fuel", "food", "mosque", "washroom"]},
+    {"name": "Sukheki Rest Area", "lat": 31.8667, "lng": 73.5167, "motorway": "M-2", "facilities": ["fuel", "food", "mosque", "washroom"]},
+    {"name": "Sarai Alamgir Rest Area", "lat": 32.9000, "lng": 73.7500, "motorway": "M-2", "facilities": ["fuel", "food", "washroom"]},
+    {"name": "Kalar Kahar Rest Area", "lat": 32.7800, "lng": 72.7000, "motorway": "M-2", "facilities": ["fuel", "food", "mosque", "washroom", "hotel"]},
+    {"name": "Pindi Bhattian Rest Area", "lat": 31.9000, "lng": 73.2700, "motorway": "M-2", "facilities": ["fuel", "food", "mosque"]},
+    {"name": "Hyderabad Rest Area", "lat": 25.4000, "lng": 68.3667, "motorway": "M-9", "facilities": ["fuel", "food", "washroom"]},
+    {"name": "Nooriabad Rest Area", "lat": 25.8600, "lng": 68.1200, "motorway": "M-9", "facilities": ["fuel", "food", "mosque", "washroom"]},
+    {"name": "Balkasar Rest Area", "lat": 32.9300, "lng": 72.4500, "motorway": "M-2", "facilities": ["fuel", "food", "washroom"]},
+    {"name": "Thokar Niaz Baig", "lat": 31.4700, "lng": 74.2200, "motorway": "M-2", "facilities": ["fuel", "food", "washroom", "atm"]},
+    {"name": "Swabi Rest Area", "lat": 34.1200, "lng": 72.4700, "motorway": "M-1", "facilities": ["fuel", "food", "mosque"]}
+  ]
+}

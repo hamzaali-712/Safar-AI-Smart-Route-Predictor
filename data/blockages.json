@@ -1,0 +1,14 @@
+{
+  "known_blockages": [
+    {"lat": 31.45, "lng": 74.35, "city": "Lahore", "description": "Mall Road congestion zone", "severity": 0.7, "peak_hours": [8,9,17,18]},
+    {"lat": 31.52, "lng": 74.34, "city": "Lahore", "description": "Kalma Chowk construction", "severity": 0.8, "peak_hours": [7,8,9,17,18,19]},
+    {"lat": 33.60, "lng": 73.05, "city": "Islamabad", "description": "Faizabad Interchange", "severity": 0.6, "peak_hours": [8,9,17,18]},
+    {"lat": 33.56, "lng": 73.02, "city": "Rawalpindi", "description": "Committee Chowk", "severity": 0.75, "peak_hours": [9,10,17,18,19]},
+    {"lat": 24.87, "lng": 67.03, "city": "Karachi", "description": "Shahra-e-Faisal traffic", "severity": 0.85, "peak_hours": [7,8,9,17,18,19,20]},
+    {"lat": 24.85, "lng": 67.01, "city": "Karachi", "description": "Clifton Bridge bottleneck", "severity": 0.65, "peak_hours": [8,9,18,19]},
+    {"lat": 34.01, "lng": 71.53, "city": "Peshawar", "description": "GT Road Peshawar entry", "severity": 0.7, "peak_hours": [8,9,10,17,18]},
+    {"lat": 30.16, "lng": 71.52, "city": "Multan", "description": "Chowk Kumharanwala", "severity": 0.6, "peak_hours": [9,10,17,18]},
+    {"lat": 31.42, "lng": 73.08, "city": "Faisalabad", "description": "Clock Tower area", "severity": 0.65, "peak_hours": [10,11,17,18,19]},
+    {"lat": 32.08, "lng": 72.67, "city": "Sargodha", "description": "City center bazaar", "severity": 0.5, "peak_hours": [10,11,12,17,18]}
+  ]
+}

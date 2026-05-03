@@ -1,0 +1,20 @@
+{
+  "currency": "PKR",
+  "last_updated": "2026-05-01",
+  "fuel_types": {
+    "petrol": {"price_per_liter": 275.0, "unit": "PKR/L"},
+    "diesel": {"price_per_liter": 280.0, "unit": "PKR/L"},
+    "cng": {"price_per_kg": 230.0, "unit": "PKR/kg"},
+    "electric": {"price_per_kwh": 45.0, "unit": "PKR/kWh"}
+  },
+  "toll_rates": {
+    "M-1": {"car": 190, "motorcycle": 80, "bus": 570},
+    "M-2": {"car": 780, "motorcycle": 330, "bus": 2340},
+    "M-3": {"car": 120, "motorcycle": 50, "bus": 360},
+    "M-4": {"car": 250, "motorcycle": 100, "bus": 750},
+    "M-9": {"car": 620, "motorcycle": 260, "bus": 1860},
+    "M-11": {"car": 100, "motorcycle": 40, "bus": 300},
+    "M-14": {"car": 310, "motorcycle": 130, "bus": 930},
+    "default": {"car": 200, "motorcycle": 80, "bus": 600}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "vehicles": {
+    "sedan": {"fuel_type": "petrol", "consumption_per_100km": 10.0, "label": "Sedan (Corolla/Civic)"},
+    "hatchback": {"fuel_type": "petrol", "consumption_per_100km": 7.5, "label": "Hatchback (Alto/Cultus)"},
+    "suv": {"fuel_type": "petrol", "consumption_per_100km": 14.0, "label": "SUV (Fortuner/Sportage)"},
+    "motorcycle": {"fuel_type": "petrol", "consumption_per_100km": 3.0, "label": "Motorcycle (70cc/125cc)"},
+    "rickshaw": {"fuel_type": "cng", "consumption_per_100km": 5.0, "label": "Rickshaw (CNG)"},
+    "bus": {"fuel_type": "diesel", "consumption_per_100km": 25.0, "label": "Bus / Coach"},
+    "truck": {"fuel_type": "diesel", "consumption_per_100km": 35.0, "label": "Truck / Cargo"},
+    "electric": {"fuel_type": "electric", "consumption_per_100km": 15.0, "label": "Electric Vehicle"}
+  }
+}
