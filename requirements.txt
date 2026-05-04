@@ -5,10 +5,10 @@
 
 # 1. STREAMLIT — Frontend UI
 streamlit>=1.32.0
-streamlit-folium>=0.18.0
+streamlit-folium>=0.18.0,<0.26.0
 
 # 2. MAP & GIS
-folium>=0.15.0
+folium>=0.15.0,<0.20.0
 
 # 3. DATA HANDLING
 pandas>=2.1.0

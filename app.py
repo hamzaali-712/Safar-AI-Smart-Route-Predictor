@@ -198,12 +198,23 @@ if search_clicked or "scored_routes" in st.session_state:
         
         profile = get_ors_profile(travel_mode)
         
-        with st.spinner("🛰️ Fetching routes from OpenRouteService..."):
+        with st.spinner("🛰️ Fetching routes..."):
             raw_routes = fetch_routes(origin_coords, dest_coords, profile, alternatives=3)
         
         if not raw_routes:
-            st.error("❌ No routes found. Try different cities or travel mode.")
+            st.error("❌ No routes found. Please check:")
+            st.markdown("""
+            - Your **ORS_API_KEY** in `.streamlit/secrets.toml` is valid
+            - The cities are **routable** with the selected travel mode
+            - Your **internet connection** is working
+            - Try a different **travel mode** (e.g. Driving instead of Walking for long distances)
+            """)
             st.stop()
+        
+        # Show routing source
+        route_source = raw_routes[0].get("source", "ORS")
+        if route_source == "OSRM":
+            st.info("ℹ️ Routes provided by OSRM (free fallback). Add a valid ORS_API_KEY for enhanced routing.")
         
         with st.spinner("🧠 Running AI Scoring Engine..."):
             scored = score_routes(
