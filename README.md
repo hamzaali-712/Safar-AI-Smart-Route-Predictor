@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python)](https://python.org)
 [![XGBoost](https://img.shields.io/badge/ML-XGBoost-blue)](https://xgboost.readthedocs.io)
 
-🔗 **Live Demo:** [safar-ai-smart-route-predictor.streamlit.app](https://safar-ai-smart-route-predictor.streamlit.app/)
+🔗 **Live Demo:** [safar-ai-smart-route.streamlit.app]((https://safar-ai-smart-route.streamlit.app/))
 
 ---
 
