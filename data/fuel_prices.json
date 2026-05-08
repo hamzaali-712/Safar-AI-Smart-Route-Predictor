@@ -1,11 +1,11 @@
 {
   "currency": "PKR",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-08",
   "fuel_types": {
-    "petrol": {"price_per_liter": 275.0, "unit": "PKR/L"},
-    "diesel": {"price_per_liter": 280.0, "unit": "PKR/L"},
-    "cng": {"price_per_kg": 230.0, "unit": "PKR/kg"},
-    "electric": {"price_per_kwh": 45.0, "unit": "PKR/kWh"}
+    "petrol": {"price_per_liter": 399.86, "unit": "PKR/L"},
+    "diesel": {"price_per_liter": 399.58, "unit": "PKR/L"},
+    "cng": {"price_per_kg": 290.0, "unit": "PKR/kg"},
+    "electric": {"price_per_kwh": 55.0, "unit": "PKR/kWh"}
   },
   "toll_rates": {
     "M-1": {"car": 190, "motorcycle": 80, "bus": 570},

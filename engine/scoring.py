@@ -72,14 +72,18 @@ def score_routes(
         })
     
     max_cost = max(cost_values) if cost_values else 1
+    min_time = min(r["eta"]["eta_min"] for r in scored) if scored else 1
+    min_dist = min(r["distance_km"] for r in scored) if scored else 1
+    min_cost = min(cost_values) if cost_values else 1
     
     # Calculate final weighted scores
     for route in scored:
-        time_score = 1 - (route["eta"]["eta_min"] / max(max_time * 1.5, 1))
-        dist_score = 1 - (route["distance_km"] / max(max_dist, 1))
+        # Use ratio-based scoring: best route gets 1.0, worse routes get proportionally less
+        time_score = min_time / max(route["eta"]["eta_min"], 1)
+        dist_score = min_dist / max(route["distance_km"], 1)
         safety_score = route["safety"]["score"] / 100
         congestion_score = 1 - route["ml_congestion"]
-        cost_score = 1 - (route["cost"]["total_cost_pkr"] / max(max_cost, 1))
+        cost_score = min_cost / max(route["cost"]["total_cost_pkr"], 1)
         
         # Weighted sum
         final = (

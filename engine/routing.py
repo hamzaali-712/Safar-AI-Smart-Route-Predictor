@@ -88,8 +88,7 @@ def _fetch_ors_routes(origin_coords, destination_coords, profile, api_key, alter
     body = {
         "coordinates": [origin_lng_lat, dest_lng_lat],
         "geometry": True,
-        "instructions": True,
-        "units": "km"
+        "instructions": True
     }
 
     # Only add alternative_routes if requesting > 0 alternatives
