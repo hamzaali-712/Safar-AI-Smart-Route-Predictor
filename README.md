@@ -215,11 +215,7 @@ GROQ_API_KEY = "your_key"
 
 ---
 
-## 👥 Team
 
-| Name | Role |
-|------|------|
-| **Hamza Ali** | Lead Developer |
 
 ---
 
