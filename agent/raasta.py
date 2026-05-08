@@ -3,6 +3,10 @@ Safar AI — Raasta Chatbot
 AI travel assistant powered by Groq, with route context awareness.
 """
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import json
 from groq_ai.chat import chat_with_groq
 from agent.language import get_response_language_instruction
