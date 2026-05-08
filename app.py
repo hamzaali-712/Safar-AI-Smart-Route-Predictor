@@ -5,8 +5,10 @@ Main Streamlit application entry point.
 """
 
 import sys
-import os
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+from pathlib import Path
+_PROJECT_ROOT = str(Path(__file__).resolve().parent)
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
 
 import streamlit as st
 from datetime import datetime, time

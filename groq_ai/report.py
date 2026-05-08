@@ -4,7 +4,7 @@ Sends scored route data to Groq LLM for deep analysis.
 """
 
 import json
-from groq_ai.chat import chat_with_groq
+from .chat import chat_with_groq
 
 
 REPORT_SYSTEM_PROMPT = """You are Safar AI — Pakistan's premier AI travel intelligence system. 
