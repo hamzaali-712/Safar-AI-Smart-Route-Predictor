@@ -74,20 +74,20 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                        🧭 SAFAR AI  FEATURE MATRIX                         ║
-╠══════════════════════╦══════════════════════════════════════════════════════╣
-║  🛰️ Smart Routing    ║  Up to 3 alternative routes · ORS + OSRM fallback   ║
+╔═════════════════════════════════════════════════════════════════════════════╗
+║                        🧭 SAFAR AI  FEATURE MATRIX                          ║
+╠══════════════════════╦══════════════════════════════════════════════=════════╣
+║  🛰️ Smart Routing    ║  Up to 3 alternative routes · ORS + OSRM fallback    ║
 ║  🧠 AI Scoring       ║  5-factor weighted engine · 85–95/100 best route     ║
 ║  🤖 ML Prediction    ║  XGBoost on 5,000 synthetic Pakistan traffic samples ║
 ║  🗺️ Interactive Map  ║  Folium dark map · color routes · blockage markers   ║
 ║  📊 Analytics        ║  Plotly charts · gauge · comparison · cost breakdown ║
 ║  📝 AI Reports       ║  Groq Llama 3.3 70B · risks · tips · PKR costs       ║
-║  💬 Raasta Chat      ║  Bilingual AI assistant · Urdu + English support      ║
-║  📥 Report Download  ║  Professional HTML report · one-click export          ║
-║  📜 Route History    ║  Session-based search history with comparisons        ║
+║  💬 Raasta Chat      ║  Bilingual AI assistant · Urdu + English support     ║
+║  📥 Report Download  ║  Professional HTML report · one-click export         ║
+║  📜 Route History    ║  Session-based search history with comparisons       ║
 ║  🛡️ Safety Index     ║  Region + road type + time-of-day 0–100 scoring      ║
-║  💰 PKR Calculator   ║  Live fuel rates + toll charges · 8 vehicle types     ║
+║  💰 PKR Calculator   ║  Live fuel rates + toll charges · 8 vehicle types    ║
 ╚══════════════════════╩══════════════════════════════════════════════════════╝
 ```
 
@@ -176,23 +176,23 @@
 ### 📱 Application Flow
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        🧭 SAFAR AI — USER JOURNEY                  │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  1️⃣  SELECT TRIP                                                    │
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        🧭 SAFAR AI — USER JOURNEY                      │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  1️⃣  SELECT TRIP                                                       │
 │     📍 Origin City → 🏁 Destination → 🚗 Mode → 🚙 Vehicle → 📅 Time │
-│                            ↓                                        │
-│  2️⃣  AI PROCESSING                                                  │
-│     🛰️ Fetch Routes (ORS/OSRM) → 🧠 Score Routes → 📊 Rank Results  │
-│                            ↓                                        │
-│  3️⃣  DASHBOARD TABS                                                 │
-│     🗺️ MAP  │  📊 CHARTS  │  📝 AI REPORT  │  📋 DETAILS  │  💬 CHAT │
-│                            ↓                                        │
-│  4️⃣  ACTIONS                                                        │
-│     📥 Download Report   │   💬 Ask Raasta   │   📜 View History    │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+│                            ↓                                            │
+│  2️⃣  AI PROCESSING                                                      │
+│     🛰️ Fetch Routes (ORS/OSRM) → 🧠 Score Routes → 📊 Rank Results     │
+│                            ↓                                            │
+│  3️⃣  DASHBOARD TABS                                                     │
+│     🗺️ MAP  │  📊 CHARTS  │  📝 AI REPORT  │  📋 DETAILS  │  💬 CHAT  │
+│                            ↓                                            │
+│  4️⃣  ACTIONS                                                            │
+│     📥 Download Report   │   💬 Ask Raasta   │   📜 View History   m   │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -413,14 +413,14 @@ sequenceDiagram
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║              SAFAR AI — WEIGHTED SCORING FORMULA                    ║
+║              SAFAR AI — WEIGHTED SCORING FORMULA                     ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║                                                                     ║
-║  Score = (0.30 × Time) + (0.15 × Distance) + (0.25 × Safety)       ║
-║        + (0.20 × Congestion) + (0.10 × Cost)                       ║
-║                                                                     ║
-║  All factors normalized 0.0–1.0 using ratio-based method           ║
-║  Final score multiplied × 100 → displayed as 0–100                 ║
+║                                                                      ║
+║  Score = (0.30 × Time) + (0.15 × Distance) + (0.25 × Safety)         ║
+║        + (0.20 × Congestion) + (0.10 × Cost)                         ║
+║                                                                      ║
+║  All factors normalized 0.0–1.0 using ratio-based method             ║
+║  Final score multiplied × 100 → displayed as 0–100                   ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
